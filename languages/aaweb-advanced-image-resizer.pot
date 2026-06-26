@@ -1,0 +1,423 @@
+# Copyright (C) 2026 AAWEB - Apostolou Antonios
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AAWEB Advanced Image Resizer 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/aaweb-advanced-image-resizer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-23T13:45:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: aaweb-advanced-image-resizer\n"
+
+#. Plugin Name of the plugin
+#: aaweb-advanced-image-resizer.php:3
+msgid "AAWEB Advanced Image Resizer"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: aaweb-advanced-image-resizer.php:4
+msgid "https://antoapweb.gr/aaweb-advanced-image-resizer/"
+msgstr ""
+
+#. Description of the plugin
+#: aaweb-advanced-image-resizer.php:5
+msgid "Resize WordPress Media Library images with padding, social presets, bulk actions, create-new mode and safer replace mode with optional backups."
+msgstr ""
+
+#. Author of the plugin
+#: aaweb-advanced-image-resizer.php:10
+msgid "AAWEB - Apostolou Antonios"
+msgstr ""
+
+#. Author URI of the plugin
+#: aaweb-advanced-image-resizer.php:11
+msgid "https://antoapweb.gr/"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:65
+#: aaweb-advanced-image-resizer.php:66
+msgid "AAWEB Image Resizer"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:74
+#: aaweb-advanced-image-resizer.php:303
+msgid "Settings"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:176
+msgid "Carousel Square"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:177
+msgid "Carousel Landscape"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:178
+msgid "Carousel Portrait"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:179
+msgid "Shared Link"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:180
+msgid "Facebook Square"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:181
+msgid "Facebook Ad"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:182
+msgid "WordPress Banner"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:183
+msgid "WordPress Banner Small"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:184
+msgid "WordPress Icon 256"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:185
+msgid "WordPress Icon 128"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:208
+#: aaweb-advanced-image-resizer.php:254
+msgid "Select size"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:255
+msgid "— Size for Bulk —"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:256
+#: aaweb-advanced-image-resizer.php:960
+msgid "— Mode —"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:257
+msgid "— Format —"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:258
+msgid "Output format"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:259
+#: aaweb-advanced-image-resizer.php:308
+#: aaweb-advanced-image-resizer.php:393
+#: aaweb-advanced-image-resizer.php:961
+msgid "Replace"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:260
+#: aaweb-advanced-image-resizer.php:309
+#: aaweb-advanced-image-resizer.php:395
+#: aaweb-advanced-image-resizer.php:962
+msgid "Create New"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:261
+#: aaweb-advanced-image-resizer.php:398
+msgid "Resize"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:262
+msgid "Resize with AAWEB"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:263
+msgid "Please select both size and mode."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:264
+msgid "Resizing..."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:265
+msgid "Done"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:266
+msgid "Error"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:267
+msgid "Replace will overwrite the current attachment file. Continue?"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:268
+msgid "Please select an output format."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:269
+msgid "Backups"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:270
+msgid "Load backups"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:271
+msgid "No backups found for this image."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:272
+msgid "Restore"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:273
+msgid "Delete"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:274
+msgid "Restore this backup? The current attachment file will be replaced."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:275
+msgid "Delete this backup file permanently?"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:276
+#: aaweb-advanced-image-resizer.php:625
+msgid "Backup restored successfully."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:277
+#: aaweb-advanced-image-resizer.php:647
+msgid "Backup deleted successfully."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:285
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:294
+msgid "Advanced Image Resizer"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:295
+msgid "Resize Media Library images into social, ads and WordPress.org dimensions with padding, bulk tools and safer replace mode."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:297
+msgid "Open Media Library"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:306
+msgid "Default mode"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:311
+msgid "Replace keeps the same attachment ID. Create New creates a new attachment using the selected output format."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:315
+msgid "Default output format"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:319
+msgid "Choose the default export format for resized images. WebP requires server GD WebP support."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:323
+msgid "JPG quality"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:325
+msgid "Recommended: 90–94. Use 100 only when file size is not important."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:329
+msgid "WebP quality"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:331
+msgid "Used only when the output format is WebP."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:335
+msgid "Padding background"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:340
+msgid "Maximum backups per image"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:342
+msgid "Set 0 to keep unlimited backups. Older backups are deleted automatically when a new backup is created."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:346
+msgid "Create backup before Replace"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:347
+msgid "Enable row action in Media Library"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:348
+msgid "Enable bulk resize action"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:349
+msgid "Enable tool inside image editor modal"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:353
+msgid "Custom presets"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:355
+msgid "One preset per line. Format: Label|WIDTHxHEIGHT"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:358
+msgid "Save Settings"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:362
+msgid "Available presets"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:425
+msgid "JPG"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:430
+msgid "PNG"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:435
+msgid "WebP"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:562
+#: aaweb-advanced-image-resizer.php:635
+msgid "Backup not found."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:567
+msgid "Backup file is missing."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:580
+msgid "Current attachment file not found."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:591
+msgid "Invalid backup image type."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:606
+msgid "Failed to restore backup file."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:686
+msgid "The GD image library is not available on this server."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:694
+msgid "Invalid dimension key."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:702
+msgid "File not found."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:707
+msgid "Unsupported or invalid image."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:723
+msgid "WebP is not supported on this server."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:728
+msgid "Unsupported image type."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:732
+msgid "Failed to open image."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:739
+msgid "Invalid image size."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:776
+msgid "Failed to save resized image file."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:792
+msgid "Image replaced successfully."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:821
+msgid "Failed to save new resized image file."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:834
+msgid "Failed to create attachment."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:842
+msgid "New resized image created successfully."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:855
+#: aaweb-advanced-image-resizer.php:874
+#: aaweb-advanced-image-resizer.php:896
+#: aaweb-advanced-image-resizer.php:918
+#: aaweb-advanced-image-resizer.php:974
+msgid "Permission denied."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:862
+msgid "Missing attachment ID."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:866
+#: aaweb-advanced-image-resizer.php:883
+#: aaweb-advanced-image-resizer.php:905
+#: aaweb-advanced-image-resizer.php:933
+msgid "You are not allowed to edit this image."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:929
+msgid "Missing parameters."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:947
+msgid "AAWEB Resize with Padding"
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:978
+msgid "Invalid nonce."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:987
+msgid "Please select a size before applying the bulk action."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:991
+msgid "Please select a valid mode."
+msgstr ""
+
+#: aaweb-advanced-image-resizer.php:995
+msgid "Please select a valid output format."
+msgstr ""
+
+#. translators: 1: number of successfully resized images, 2: number of failed image resize attempts.
+#: aaweb-advanced-image-resizer.php:1045
+#, php-format
+msgid "AAWEB Image Resizer bulk complete: %1$d succeeded, %2$d failed."
+msgstr ""
