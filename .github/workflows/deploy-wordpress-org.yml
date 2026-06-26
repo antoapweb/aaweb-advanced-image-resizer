@@ -1,0 +1,58 @@
+name: Deploy to WordPress.org
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Git repo
+        uses: actions/checkout@v4
+
+      - name: Install SVN and rsync
+        run: sudo apt-get update && sudo apt-get install -y subversion rsync
+
+      - name: Set version
+        id: version
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout WordPress.org SVN
+        run: |
+          svn checkout https://plugins.svn.wordpress.org/aaweb-advanced-image-resizer svn
+
+      - name: Sync trunk
+        run: |
+          rsync -av --delete \
+            --exclude=".git" \
+            --exclude=".github" \
+            --exclude=".gitignore" \
+            --exclude="*.zip" \
+            ./ svn/trunk/
+
+      - name: Create SVN tag
+        run: |
+          rm -rf svn/tags/${{ steps.version.outputs.version }}
+          mkdir -p svn/tags/${{ steps.version.outputs.version }}
+          rsync -av svn/trunk/ svn/tags/${{ steps.version.outputs.version }}/
+
+      - name: SVN add/remove
+        run: |
+          cd svn
+          svn status | awk '/^\?/ {print $2}' | xargs -r svn add
+          svn status | awk '/^\!/ {print $2}' | xargs -r svn delete
+
+      - name: Commit to WordPress.org
+        run: |
+          cd svn
+          svn commit \
+            --username "${{ secrets.SVN_USERNAME }}" \
+            --password "${{ secrets.SVN_PASSWORD }}" \
+            --non-interactive \
+            --trust-server-cert \
+            -m "Release ${{ steps.version.outputs.version }}"
